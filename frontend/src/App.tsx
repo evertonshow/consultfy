@@ -1,11 +1,12 @@
-import Brokerage from "pages/Brokerage";
 import "./styles/global.css";
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "Route";
 
 function App() {
   return (
-    <div>
-      <Brokerage />
-    </div>
+    <Router>
+      <Routes />
+    </Router>
   );
 }
 
