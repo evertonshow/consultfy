@@ -1,10 +1,10 @@
-import Profile from "pages/Profile";
+import Brokerage from "pages/Brokerage";
 import "./styles/global.css";
 
 function App() {
   return (
     <div>
-      <Profile />
+      <Brokerage />
     </div>
   );
 }

@@ -16,20 +16,18 @@ export const Container = styled.div<toggledButton>`
   background: ${theme.color.backgroundBody};
 `;
 export const Button = styled.button<toggledButton>`
-  background: ${theme.color.asideHeader};
+  background: transparent;
   margin-left: ${({ toggled }) => (toggled ? "154px" : "30px")};
   height: 40;
   width: 40;
   border: 0;
-  outline: none;
-  border-radius: 5;
   cursor: pointer;
 `;
 
 export const Profile = styled.div`
   display: flex;
   align-items: center;
-  margin-right: 3%;
+  margin-right: 30px;
 `;
 export const TitleName = styled.p`
   font-size: 16px;

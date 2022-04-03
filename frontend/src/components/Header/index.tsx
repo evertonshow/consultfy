@@ -23,10 +23,10 @@ export default function Header({ toggled, onClick }: headerProps) {
   return (
     <Container toggled={toggled}>
       <Button toggled={toggled} onClick={onClick}>
-        <FaBars size={25} color={"#fff"} />
+        <FaBars size={25} color={theme.color.asideHeader} />
       </Button>
       <Profile>
-        <div style={{}}>
+        <div>
           <TitleName>{data.name}</TitleName>
           <TitleProfession>{data.profission}</TitleProfession>
         </div>

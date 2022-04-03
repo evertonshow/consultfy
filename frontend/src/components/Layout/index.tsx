@@ -5,7 +5,11 @@ import Aside from "../Aside";
 import Header from "components/Header";
 import { Container, Content } from "./styles";
 
-function Layout({ Children }: ReactNode | any) {
+interface layoutProps {
+  children: ReactNode;
+}
+
+function Layout({ children }: layoutProps) {
   const [toggled, setToggled] = useState(false);
 
   const handleToggleSidebar = () => {
@@ -23,8 +27,7 @@ function Layout({ Children }: ReactNode | any) {
       <Content>
         <Header toggled={toggled} onClick={() => setToggled(!toggled)} />
         <div style={toggled ? { marginLeft: 154 } : { marginLeft: 0 }}>
-          <h1>teste</h1>
-          {Children}
+          {children}
         </div>
       </Content>
     </Container>
