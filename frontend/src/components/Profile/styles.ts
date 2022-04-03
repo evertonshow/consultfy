@@ -34,7 +34,7 @@ export const Content2 = styled.div`
 
 export const Separador = styled.div`
   height: 1px;
-  width: 1072px;
+  width: 1062px;
   background-color: #c4c4c4;
   display: flex;
   margin-left: 15px;

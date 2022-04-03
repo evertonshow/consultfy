@@ -10,7 +10,7 @@ interface layoutProps {
 }
 
 function Layout({ children }: layoutProps) {
-  const [toggled, setToggled] = useState(false);
+  const [toggled, setToggled] = useState(true);
 
   const handleToggleSidebar = () => {
     setToggled(false);

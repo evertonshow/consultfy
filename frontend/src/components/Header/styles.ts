@@ -27,7 +27,7 @@ export const Button = styled.button<toggledButton>`
 export const Profile = styled.div`
   display: flex;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 3%;
 `;
 export const TitleName = styled.p`
   font-size: 16px;
