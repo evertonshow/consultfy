@@ -1,5 +1,6 @@
 import Layout from "components/Layout";
 import Profile from "components/Profile";
+import TableCostShare from "components/TableCostShare";
 import { theme } from "styles/theme";
 
 export default function CostShare() {
@@ -15,6 +16,7 @@ export default function CostShare() {
           }}
         />
       </Profile>
+      <TableCostShare />
     </Layout>
   );
 }

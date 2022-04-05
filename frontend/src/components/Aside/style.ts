@@ -7,15 +7,15 @@ export const styles = {
   },
   openHeaderAside: {
     width: 220,
-    height: 61,
+    height: 79,
     background: theme.color.asideHeader,
     paddingTop: 17,
     paddingLeft: 10,
     marginRight: -10,
   },
   closeHeaderAside: {
-    width: 45,
-    height: 61,
+    width: 50,
+    height: 79,
     background: theme.color.asideHeader,
     paddingTop: 17,
     paddingLeft: 5,

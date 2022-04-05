@@ -14,6 +14,11 @@ export const Container = styled.div<toggledButton>`
   align-items: center;
   justify-content: space-between;
   background: ${theme.color.backgroundBody};
+
+  @media (min-width: 1500px) {
+    width: 100%;
+    min-width: ${({ toggled }) => (toggled ? "94VW" : "97vw")};
+  }
 `;
 export const Button = styled.button<toggledButton>`
   background: transparent;

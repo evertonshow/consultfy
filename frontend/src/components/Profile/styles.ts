@@ -9,7 +9,11 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 60%;
+  width: 70%;
+  margin-left: -20px;
+  @media (min-width: 1500px) {
+    width: 58%;
+  }
 `;
 export const Title = styled.p`
   font-size: 14px;
@@ -27,9 +31,11 @@ export const Content2 = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 52%;
-  margin-top: -20px;
+  width: 58%;
   margin-left: 20px;
+  @media (min-width: 1500px) {
+    width: 48.3%;
+  }
 `;
 
 export const Separador = styled.div`
