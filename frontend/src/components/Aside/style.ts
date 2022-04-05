@@ -9,15 +9,15 @@ export const styles = {
     width: 220,
     height: 61,
     background: theme.color.asideHeader,
-    paddingTop: 20,
-    paddingLeft: 20,
-    marginRight: -20,
+    paddingTop: 17,
+    paddingLeft: 10,
+    marginRight: -10,
   },
   closeHeaderAside: {
     width: 45,
     height: 61,
     background: theme.color.asideHeader,
-    paddingTop: 20,
+    paddingTop: 17,
     paddingLeft: 5,
   },
   openAside: {
@@ -32,9 +32,5 @@ export const styles = {
   },
   icon: {
     width: "100%",
-  },
-  imgIcon: {
-    paddingLeft: 30,
-    background: "red",
   },
 };
