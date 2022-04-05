@@ -1,3 +1,4 @@
+import CardDarf from "components/CardDarf";
 import Layout from "components/Layout";
 import Profile from "components/Profile";
 import { theme } from "styles/theme";
@@ -15,6 +16,7 @@ export default function Darf() {
           }}
         />
       </Profile>
+      <CardDarf />
     </Layout>
   );
 }

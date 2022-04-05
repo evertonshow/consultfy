@@ -1,5 +1,6 @@
 import Layout from "components/Layout";
 import Profile from "components/Profile";
+import TableTax from "components/TableTax";
 import { theme } from "styles/theme";
 
 export default function TaxIncome() {
@@ -15,6 +16,7 @@ export default function TaxIncome() {
           }}
         />
       </Profile>
+      <TableTax />
     </Layout>
   );
 }

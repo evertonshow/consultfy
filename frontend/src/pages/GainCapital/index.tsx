@@ -1,5 +1,6 @@
 import Layout from "components/Layout";
 import Profile from "components/Profile";
+import TableGainCapiatl from "components/TableGainCapital";
 import { theme } from "styles/theme";
 
 export default function GainCapital() {
@@ -15,6 +16,7 @@ export default function GainCapital() {
           }}
         />
       </Profile>
+      <TableGainCapiatl />
     </Layout>
   );
 }

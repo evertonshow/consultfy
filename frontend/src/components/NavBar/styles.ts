@@ -9,6 +9,7 @@ export const Container = styled.nav`
 export const Link = styled.a`
   outline: nome;
   text-decoration: none;
+  color: #000;
   margin: 0 19px;
   font-size: 14px;
   line-height: 16px;
